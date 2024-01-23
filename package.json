@@ -1,0 +1,39 @@
+{
+  "name": "@duongtdn/doc-style-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "babel src --out-dir dist --source-maps",
+    "test": "jest"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongtdn/doc-style-components.git"
+  },
+  "author": "duongtdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duongtdn/doc-style-components/issues"
+  },
+  "homepage": "https://github.com/duongtdn/doc-style-components#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "styled-components": "^6.1.8"
+  },
+  "peerDependencies": {
+    "monaco-editor": "^0.34.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/plugin-transform-object-rest-spread": "^7.23.4",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "core-js": "^3.35.1",
+    "jest": "^29.7.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
