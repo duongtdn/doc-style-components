@@ -17,7 +17,7 @@ export default function Code({ language, theme, children }) {
   useEffect(() => {
     ref.current && editor.colorizeElement(ref.current, { theme, tabSize: 2 })
   }, [])
-console.log(theme)
+
   return (
     <Container data-lang = {language} $theme = {theme || ''} ref = {ref}>
       {
