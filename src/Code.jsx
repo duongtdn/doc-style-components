@@ -8,7 +8,7 @@ const Container = styled.pre`
   margin: 6px 0;
   padding: 16px;
   border-radius: 6px;
-  background: ${props => props.theme.match('-dark') ? '#414141': '#f1f1f1' };
+  background: ${props => props.theme?.match('-dark') ? '#414141': '#f1f1f1' };
 `
 
 export default function Code({ language, theme, children }) {
