@@ -1,6 +1,6 @@
 {
   "name": "@duongtdn/doc-style-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/duongtdn/doc-style-components#readme",
   "dependencies": {
-    "@duongtdn/doc-style-factory": "^1.0.2",
+    "@duongtdn/doc-style-factory": "^1.0.3",
     "react": "^18.2.0",
     "styled-components": "^6.1.8"
   },
