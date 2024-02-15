@@ -59,12 +59,12 @@ export default function CheckBox({ label, onChange }) {
 
   const [checked, setChecked] = useState(false);
 
-  const content = docStyleFactory.create(label)
+  const texts = docStyleFactory.create(label)
 
   return (
     <Container>
       {
-        content?.map(
+        texts?.map(
           ({text, style}, index) => <span style={style} key = {index}>{text}</span>
         )
       }
