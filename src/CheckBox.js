@@ -1,6 +1,6 @@
 "use strict"
 
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import styled from 'styled-components'
 import DocStyleFactory from '@duongtdn/doc-style-factory'
 
@@ -59,7 +59,9 @@ export default function CheckBox({ label, onChange }) {
 
   const [checked, setChecked] = useState(false);
 
-  const texts = docStyleFactory.create(label)
+  const texts = useMemo(
+    () => docStyleFactory.create(label)
+  , [label]);
 
   return (
     <Container>
